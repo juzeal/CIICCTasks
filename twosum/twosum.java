@@ -6,12 +6,6 @@ public class twosum {
     ArrayList<Integer> nums;
     int target;
 
-    /* 
-    public twosum(ArrayList<Integer> nums, int target) {
-        this.nums = nums;
-        this.target = target;
-    }*/
-
     static public ArrayList<Integer> checkSum(ArrayList<Integer> nums, int target) {
         ArrayList<Integer> output = new ArrayList<>();
         for(int x=0; x <= nums.size() - 1; x++){
